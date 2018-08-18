@@ -10,18 +10,19 @@ def argue(name)
   phrase = "I'm right and you are wrong!"
 end
 
-def greeting(name)
-  puts "Hi there, #{name}!"
+def greeting(greeting, name)
+  puts "#{greeting}, #{name}!"
 end
 
-def return_a_value
-  returns "nice"
+def return_a_value(phrase = "Nice")
+  puts phrase
+  phrase
 end
 
 def last_evaluated_value
-
+  puts "expert"
 end
 
-def pizza_party
-
+def pizza_party(x = cheese)
+  pizza_party(pepperoni)
 end
